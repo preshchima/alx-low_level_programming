@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry
+ * main: String
  * return: Always 0
  */
 int main(void)
