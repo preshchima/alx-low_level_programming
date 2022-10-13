@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
- * main: String
- * return: Always 0
+ * main - Entry point
+ *
+ * Description: prints a string as output
+ *
+ * Return: Always 0
  */
 int main(void)
 {
