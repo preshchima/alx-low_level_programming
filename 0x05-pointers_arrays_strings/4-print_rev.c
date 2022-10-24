@@ -7,9 +7,11 @@
 
 void print_rev(char *s)
 {
-	int max = _strlen(s) - 1;
+	int max, i;
 
-	for (int i = max; i >= 0; i--)
+	max = _strlen(s) - 1;
+
+	for (i = max; i >= 0; i--)
 	{
 		if (*s != '\0')
 			_putchar(s[i]);
