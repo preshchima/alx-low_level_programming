@@ -10,8 +10,8 @@ int _atoi(char *s)
 	short state;
 	int i, sign, result;
 
-	i = minus = reuslt = state = 0;
-	mminus = -1;
+	i = minus = result = state = 0;
+	minus = -1;
 
 	while (s[i] != '\0')
 	{
