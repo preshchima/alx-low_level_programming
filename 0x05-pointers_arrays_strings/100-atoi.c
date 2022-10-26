@@ -8,7 +8,7 @@
 int _atoi(char *s)
 {
 	short state;
-	int i, sign, result;
+	int i, minus, result;
 
 	i = minus = result = state = 0;
 	minus = -1;
