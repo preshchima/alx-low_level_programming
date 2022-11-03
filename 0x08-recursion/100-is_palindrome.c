@@ -1,8 +1,5 @@
 #include "main.h"
 
-int _strlen_recursion(char *s)
-int checker(char *str, int len, int count)
-int is_palindrome(char *s)
 
 /**
  * _strlen_recursion - returns the length of a string.
@@ -46,3 +43,4 @@ int is_palindrome(char *s)
 	int count = 0;
 
 	return (checker(s, len - 1, count));
+}
