@@ -1,4 +1,9 @@
 #include "main.h"
+
+int _strlen_recursion(char *s)
+int checker(char *str, int len, int count)
+int is_palindrome(char *s)
+
 /**
  * _strlen_recursion - returns the length of a string.
  * @s: the string to count
